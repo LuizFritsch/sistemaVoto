@@ -15,7 +15,7 @@ Ou
 ## Siga estes passos para executar o sistema Voto:
 
 1. Clone o repositório na root server directory (diretorio htdocs ou www): 
-```sh
+```console
 WhoAmI@wHOamI:~$ git clone https://github.com/LuizFritsch/sistemaVoto.git
 ```
 
