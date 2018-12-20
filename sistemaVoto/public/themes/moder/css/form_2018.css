@@ -1,0 +1,145 @@
+
+.form-2018{
+    font-size: 12px;
+    font-family: arial;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.form-2018.modal{
+    font-size: 13px;
+}
+
+.form-2018 fieldset{
+    display: inline-block;
+    margin: 6px;
+    vertical-align: top;
+}
+
+.form-2018 label{
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.form-2018 select{
+    height: 28px;
+    padding: 0 4px;
+    cursor: pointer;
+}
+
+.form-2018 input[type=text]{
+    padding: 0 8px;
+    height: 28px;
+}
+
+.form-2018 input[type=file]{
+    padding: 4px;
+}
+
+.form-2018 input[type=file]{
+    margin-top: 4px;
+    cursor: pointer;
+    min-width: 24rem;
+}
+
+.form-2018 textarea{
+    padding: 8px;
+}
+
+.form-2018 .disabled_input,
+.form-2018 :disabled, .form-2018 .disabled{
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.form-2018 button:disabled{
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.form-2018 textarea[readonly]{
+    background: none;
+    resize: none;
+    border: none;
+}
+
+.form-2018 fieldset.group{
+    border: none;
+    margin: 0 32px 0 0;
+}
+
+.form-2018 fieldset.group > legend{
+    display: table-cell;
+    font-weight: bold;
+    float: left;
+}
+
+.form-2018 fieldset.group > label{
+    display: inline-block;
+    font-weight: normal;
+    float: right;
+    white-space: nowrap;
+    margin: 2px 0 8px 8px;
+}
+
+.form-2018 input[type=checkbox]{
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.form-2018 input[type=radio]{
+    cursor: pointer;
+}
+
+.form-2018 p.zebra{
+    padding: 6px 10px;
+    margin: 0;
+}
+
+.form-2018 label.checkbox{
+    margin: 0 0 0 6px;
+    line-height: 28px;
+}
+
+.form-2018 label.min{
+    width: auto;
+    margin-right: 6px;
+}
+
+.form-2018 p > label.checkbox ~ input[type=text],
+.form-2018 p > label.checkbox ~ select{
+    margin-right: 16px;
+}
+
+.form-2018.modal label{
+    font-weight: normal;
+}
+
+
+/* COLOR */
+.form-2018{
+    color: #222;
+}
+
+.form-2018 .zebra:nth-of-type(odd){
+    background-color: #E1F3E6;
+}
+.form-2018 .zebra:nth-of-type(even){
+    background-color: inherit;
+}
+
+.form-2018 input:disabled,
+.form-2018 input[readonly],
+.form-2018 select:disabled{
+    background-image: url('../imgs/diagonals_3.png');
+    cursor: default;
+}
+
+.form-2018 input:disabled{
+    color: transparent;
+}

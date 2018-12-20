@@ -1,0 +1,123 @@
+
+.container{
+    float: left;
+    clear: both;
+    margin: 38px 10px 10px 11px;
+    text-align: left;
+    border: 1px solid #999;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+}
+
+.container > ul{
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: -33px;
+    margin-left: -1px;
+    margin-right: 16px;
+    font-size: 0;
+}
+
+.container > ul > li{
+    display: inline-block;
+	background-color: #e0e0e0;
+    border: 1px solid #999;
+    border-left-color: rgba(0, 0, 0, 0);
+    font-size: 12px;
+}
+
+.container > ul > li > a{
+	text-decoration: none;
+    outline: none;
+	color: #333;
+    line-height: 31px;
+    display: block;
+	padding: 0 20px;
+}
+
+.container > ul > li:first-child{
+    border-left-color: #999;
+}
+
+.container > ul > li > a:hover{
+	background-color: #ccc;
+}
+
+.container > ul > li.active, .container > ul > li.active > a:hover{
+	background-color: #fff;
+	border-bottom-color: transparent;
+}
+
+.container > ul > li.active > a{
+    cursor: default;
+}
+
+.container > div{
+    background-color: #fff;
+    padding: 10px;
+    padding-top: 0;
+    border-radius: 5px;
+}
+
+#header_place{
+    float: left;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.container > div > div h2 {
+	font-weight: normal;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #ddd;
+	font-size: 1.8em;
+}
+
+.container > div > div h3 a{
+	color: #254588;
+}
+
+.container > div > div label{
+    float: left;
+    width: 200px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.container > div label{
+    width: auto;
+    margin-right: 12px;
+    padding-top: 6px;
+}
+
+.container > div > div .select2.select2-container{
+    margin: 8px 4px 8px 2px;
+    min-width: 300px !important;
+}
+
+.container > div > div .select2 + button{
+    color: #fff;
+    background-color: #009045;
+    padding: 6px 12px;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 9px 8px 8px 0;
+}
+
+.container > div > div p.instrucao_campo{
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+
+.label_tabs{
+    width: 80px !important;
+    float: left;
+    text-align: left;
+}
+
+.input_tabs {
+    width: 290px !important;
+    padding: 5px;
+}

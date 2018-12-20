@@ -1,0 +1,20 @@
+#Deny from all
+
+#<IfModule	mod_rewrite.c>
+#RewriteEngine	On
+#RewriteCond	%{REQUEST_FILENAME}	!-f
+#RewriteCond	%{REQUEST_FILENAME}	!-d
+#RewriteRule	^(.*)$	index.php/$1	[L]
+#</IfModule>
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?$1 [L]
+
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} -s [OR]
+#RewriteCond %{REQUEST_FILENAME} -l [OR]
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^.*$ - [NC,L]
+#RewriteRule ^.*$ index.php [NC,L]

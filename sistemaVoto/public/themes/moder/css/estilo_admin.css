@@ -1,0 +1,993 @@
+/*
+    Document   : estilo
+    Created on : 30/04/2010, 17:11:52
+    Author     : Daniel Michelon De Carli <daniel.de.carli@gmail.com>
+                 Sergio Junior <sergiojunior@unipampa.edu.br>
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+html {
+    height: 100%;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+    font-size: 13px;
+    text-align: center;
+    color: #717171;
+    background: #f4f4f4;
+    min-width: 1020px;
+    height: 100%;
+}
+
+pre{
+      font-family: "verdana", "sans-serif";
+}
+p {
+    text-align: left;
+}
+
+.avisoScript {
+    text-align: center;
+    font-weight: bold;
+    color: red
+}
+
+.conteudo-central {
+    min-height: 50%;
+}
+
+.content{
+    margin-left: 10px;
+	margin-right: 10px;
+	background-color: white;
+	padding: 10px;
+	-webkit-box-shadow: #ccc 0 0 15px;
+	-moz-box-shadow: #666 0px 2px 15px;
+	border-radius: 5px;
+	border: 1px solid #ddd
+}
+.content p{
+    padding-left: 10px;
+}
+
+.center_table {
+    font-family: arial;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.center_table_interna {
+    font-family: arial;
+    font-size: 13px;
+    padding:3px;
+    width: 100%;
+}
+
+
+#header_place{
+    color:#000000;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#header_place h1 {
+    font-size: 20px;
+    color: black;
+}
+
+#header_logo{
+/*    background: url('../images/logo_unipampa.png') no-repeat;*/
+    height: 100px;
+    width: 150px;
+    margin-left: 10px;
+    float: left;
+    overflow: visible;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+th.icone, td.icone{
+    text-align: center;
+    max-width: 64px;
+    min-width: 32px;
+    width: 64px;
+}
+
+a:link, a:visited{
+    color: #009045;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #006613;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #006613;
+    text-decoration: underline;
+}
+
+a img{
+    border-style: none;
+}
+
+.center_table{
+    margin-left: auto;
+    margin-right: auto;
+    color: #222;
+}
+
+.linha_par{
+    background: #e1f3e6;
+    font-weight: normal;
+    color: #333;
+}
+
+.linha_impar{
+    background: #fff;
+    font-weight: normal;
+    color: #333;
+}
+
+#searchRegister {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url('../imgs/diagonals_5.png') ;
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    display: none;
+}
+
+#searchRegister table {
+    color: #FFF;
+    font-weight: bold;
+}
+
+#searchRegister br{
+    clear: left;
+}
+
+label{
+    float: left;
+    width: 150px;
+    font-weight: bold;
+}
+
+.label_long{
+    width: 310px;
+    float: left;
+    text-align: left;
+}
+
+.label_medium{
+    width: 150px;
+    float: left;
+    text-align: left;
+}
+
+.label_dialog {
+    width: 150px;
+    float: left;
+    text-align: left;
+    font-weight: normal;
+}
+
+
+.label_short{
+    width: 90px;
+    float: left;
+    text-align: left;
+}
+
+.small_input{
+    width: 50px;
+    background-color: white;
+    color: black;
+}
+
+.medium_input{
+    width: 100px;
+    background-color: white;
+    color: black;
+}
+
+.big_input{
+    width: 300px;
+    margin-bottom: 5px;
+    background-color: white;
+    color: black;
+}
+
+.medium_textarea{
+
+    width: 450px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+
+.form_left{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.clear{
+    clear: both;
+}
+
+
+table{
+    width: 100%;
+    text-align: left;
+}
+
+#footer{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #777;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    height: 40px;
+}
+
+
+.message_field{
+    color: #D50000;
+}
+
+.paginacao{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.botoes_left{
+    right: auto;
+    text-align: left;
+    padding-top:5px;
+    padding-right: 5px;
+    padding-left: 5px;
+	margin-bottom: 10px;
+}
+
+.titulo_right{
+    text-align: right;
+    float: right;
+    margin-top: -40px;
+    padding-right: 5px;
+    font-size: 28px;
+    color: #666;
+}
+
+.instrucao_campo.right, .titulo_popup{
+    text-align: right;
+}
+
+#login_place{
+    width: 410px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    background: #ddebe3;
+    color: #444;
+    float: right;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+.login_options{
+    width: 99%;
+    text-align: center;
+    font-size:11px;
+    padding: 10px;
+    margin: 10px auto;
+    background: url('../imgs/diagonals_5.png') ;
+    color: #444;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+.login_options p {
+    text-align: center;
+}
+
+.login_options a{
+    color: #006600;
+}
+
+input{
+    background-color: white;
+    color: black;
+    border:1px solid #bbb;
+    font-family: arial;
+    font-size: 13px;
+    padding-left: 3px;
+}
+
+textarea{
+    background-color: white;
+    color: black;
+    border:1px solid #bbb;
+    font-family: arial;
+    font-size: 13px;
+    padding-left: 3px;
+    min-width: 128px;
+}
+
+select{
+    height: 22px;
+    background-color: white;
+    color: black;
+}
+
+.disabled_input{
+    background: url('../imgs/diagonals_3.png');
+    color: black;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.disabled_input_data{
+    border: none;
+    color: black;
+}
+
+.ie6message{
+    color: #880000;
+    font-size: 18px;
+}
+
+button {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    color: black;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.button_text{
+   color: black;
+}
+
+.aviso{
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+p.destaque_campo{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #fff7cc;
+    font-weight: bold;
+}
+
+.span_invisivel{
+     position: absolute;
+     text-indent: -999em;
+}
+
+.titulo_tabela {
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.div_visivel {
+    display : block;
+}
+
+.div_invisivel {
+    display : none;
+}
+
+
+.combo {
+    width: 335px;
+}
+
+sup {
+    font-size: 11px;
+    color: #8B0D00;
+    font-family: Verdana;
+}
+
+.form_right{
+    float: right;
+    margin-top: 10px;
+    margin-right: 1px;
+    margin-left: 5px;
+}
+
+
+.instrucao_campo {
+    text-align: left;
+    font-size: 11px;
+    color: #666;
+    line-height: 1.4;
+}
+
+span.instrucao_campo{
+    line-height: 2;
+}
+
+textarea ~ .instrucao_campo.right{
+    display: block;
+}
+
+.maiuscula {
+    text-transform:uppercase
+}
+
+
+.left_text {
+    text-align: left;
+}
+
+.justify_text {
+    text-align:justify;
+}
+
+.MultiFile-remove {
+    background-color: #F7F7F7;
+
+}
+.MultiFile-label a{
+     color: red;
+     font-size: 14px;
+     font-weight: bold;
+     padding-right: 10px;
+}
+
+.MultiFile-label {
+    background-color: #F7F7F7;
+
+}
+
+
+.box{
+    padding: 10px 10px 10px 10px;
+    background: #ddebe3;
+    color: #444;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+
+.login_description{
+    width: 450px;
+    text-align: left;
+}
+
+.center_960{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#carregando{
+    background: url('../imgs/diagonals_3.png');
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top:0px;
+    right: 0px;
+    opacity: 0.80;
+    color: black;
+    display: none;
+}
+
+#carregando_text{
+    color: black;
+    background: white;
+    visibility: visible;
+    opacity: 1.0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+
+.radio {
+    height: 22px;
+    vertical-align:bottom;
+}
+
+fieldset{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: left;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+.div_instrucoes {
+    display : none;
+    text-align: left;
+    background-color: lightgray;
+
+}
+
+tr{
+    color: #444;
+    height: 26px;
+}
+
+td{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#dialog_validacao {
+    text-align: left;
+}
+
+.loading {
+    display : none;
+}
+
+input:focus, textarea:focus, select:focus {
+    background-color:   #FFFFE0;
+    color:black;
+}
+
+.simple_label {
+    font-weight: normal;
+    width: 100px;
+}
+
+.newString{
+    color: blue;
+}
+
+.oldString{
+    color: red;
+}
+
+.cabecalhoLog{
+    text-align: left;
+    padding-left:10px;
+}
+
+.textRed{
+    color: red;
+}
+
+.textBlue{
+    color: blue;
+}
+
+.textGreen{
+    color:green;
+}
+
+.parte_cadastro {
+    background-color: white;
+}
+.center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.normal {
+    font-weight: normal;
+    width: auto;
+    float: none;
+}
+
+.high_lights,
+tbody > tr:hover{
+    background: #EDEDED;
+}
+
+td[colspan]{
+    background-color: #E1F3E6;
+}
+
+.increaseFont {
+    font-size: medium;
+}
+.decreaseFont{
+    font-size:smaller;
+}
+.resetFont{
+    font-size:small;
+}
+
+.input_monetario {
+    text-align: right;
+}
+
+.input_monetario_disabled {
+    text-align: right;
+    background: url('../imgs/diagonals_3.png');
+    color: black;
+    border: 1px solid #ccc;
+}
+.selectOptionsMultiple {
+    width: 335px;
+    height: 60px;
+    margin-left: 2px;
+}
+
+.botao_menu {
+    width: 150px;
+    height: 100px;
+    color: black;
+    cursor: pointer;
+}
+
+.botao_menu_disabled {
+    opacity: 0.5;
+    cursor: auto;
+}
+
+.ui-autocomplete {
+    height: 200px;
+    overflow-y: scroll;
+    text-align: left;
+    overflow-x: hidden;
+}
+
+#logininfo {
+    float: right;
+    text-align:right;
+    padding-top: 12px;
+    padding-right: 10px;
+    font-size:12px;
+    visibility: visible;
+}
+
+#logininfo a{
+    color: #057f02;
+    font-weight: bold;
+}
+
+th{
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.errorClass {
+    border-radius: 5px;
+    border:  1px solid red;
+    margin: 1px;
+}
+
+.table_tab {
+    font-size: 12px;
+}
+
+table .truncado{
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*portal do aluno*/
+.tr_matricula{
+    background: #EFEFEF;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.tr_matricula td {
+    font-weight: bold;
+    border-top: 1px solid #CCC;
+}
+
+.tr_matricula td:first-child {
+    border-left: 1px solid #CCC;
+    border-radius: 20px 0px 0px 0px;
+}
+
+.tr_matricula td:last-child  {
+   border-right: 1px solid #CCC;
+   border-radius: 0px 20px 0px 0px;
+}
+
+.linha_header_turma{
+    background: #CCCCCC;
+    font-weight: normal;
+    color: #333;
+}
+
+.info_turma_matricula{
+    background: #EFEFEF;
+    margin-top: -3px;
+    border: 1px solid #CCC;
+    border-top:none;
+    margin-left:-5px;
+    margin-right:-1px;
+    border-radius: 0px 0px 20px 20px;
+
+
+}
+
+.tr_turma_horario{
+    background: #EFEFEF;
+    font-weight: bold;
+}
+
+
+.info_turma_horario{
+    background: #FFF;
+    margin-top: -3px;
+    border: 1px solid #CCC;
+    border-top:none;
+    margin-left:-5px;
+    margin-right:-1px;
+    /*border-radius: 0px 0px 20px 20px;*/
+
+}
+
+.info_turma_matricula table tbody tr td {
+    font-weight: normal;
+    color: #333;
+}
+
+
+.zebra_padrao{
+    background: #e1f3e6;
+    font-weight: normal;
+    color: #333;
+}
+
+.zebra_padrao:nth-child(even){
+    background: #fff;
+    font-weight: normal;
+    color: #333;
+}
+
+.row_prioridade_alterada{
+    font-weight: bold;
+
+}
+
+.zebra{
+    background-color: #FFFFFF;
+}
+
+.zebra:nth-child(even){
+    background-color: #EEEEEE;
+}
+
+.row_prioridade_alterada{
+    font-weight: bold;
+
+}
+
+/* ---------------------------------- REGISTRO DE AULAS --------------------------------------- */
+
+.ativar_presenca_falta {
+    position: relative;
+}
+
+.botao_ativar_presenca, .botao_ativar_falta, .botao_ativar_justificada {
+    display: inline-block;
+    border: 1px solid #999;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: #999;
+    padding: 0;
+    font-size: 11px;
+    margin: 4px;
+    line-height: 20px;
+}
+
+.sumir_radio {
+    display: none;
+}
+
+.ativar_presenca_falta input:checked + .botao_ativar_presenca {
+    background: #4b8466;
+    border: 1px solid #4b8466;
+    color: #fff;
+}
+
+.ativar_presenca_falta input:checked + .botao_ativar_justificada {
+    background: #ce7d42;
+    border: 1px solid #ce7d42;
+    color: #fff;
+}
+
+.ativar_presenca_falta input:checked + .botao_ativar_falta {
+    background: #9a1414;
+    border: 1px solid #9a1414;
+    color: #fff;
+}
+
+
+/*********************************************************************/
+.separador_horizontal{
+    width: 350px ;
+    height: 1px;
+    background-color: #DDD;
+}
+
+
+.select2.select2-container{
+    min-width: auto !important;
+    max-width: 512px !important;
+    width: auto !important;
+    vertical-align: top;
+    margin: 0 4px 0 0;
+}
+
+td > img:first-child[title]{
+    float: left;
+    margin-right: 4px;
+    margin-top: -2px;
+}
+
+input.campo_cep{
+    width: 4rem;
+    min-width: 4rem;
+    max-width: 4rem;
+}
+
+.tamanho5, input.campo_data, input.campo_decimal{
+    width: 5rem;
+    min-width: 5rem;
+    max-width: 5rem;
+}
+
+.tamanho7, input.campo_cpf{
+    width: 7rem;
+    min-width: 7rem;
+    max-width: 7rem;
+}
+
+.tamanho10{
+    width: 10rem;
+    min-width: 10rem;
+    max-width: 10rem;
+}
+
+.tamanho11{
+    width: 11rem;
+    min-width: 11rem;
+    max-width: 11rem;
+}
+
+.tamanho13{
+    width: 13rem;
+    min-width: 13rem;
+    max-width: 13rem;
+}
+
+.tamanho14{
+    width: 14rem;
+    min-width: 14rem;
+    max-width: 14rem;
+}
+
+.tamanho16{
+    width: 16rem;
+    min-width: 16rem;
+    max-width: 16rem;
+}
+
+.tamanho20, input.titulo, input.url, input[type=file]{
+    width: 20rem;
+    min-width: 20rem;
+    max-width: 20rem;
+}
+
+.tamanho32{
+    width: 32rem;
+    min-width: 32rem;
+    max-width: 32rem;
+}
+
+.tamanho40{
+    width: 40rem;
+    min-width: 40rem;
+    max-width: 40rem;
+}
+
+.instrucao_campo > img:first-child{
+    vertical-align: middle;
+    margin-top: -4px;
+    margin-right: 4px;
+}
+
+.botao_preview{
+    margin-top: 5px;
+    background-color: #609855;
+    color: #fff;
+    padding: 5px;
+}
+
+label + label:not([for]),
+label.checkbox{
+    font-weight: normal;
+    display: inline-block;
+    width: auto;
+    float: none;
+    margin-right: 4px;
+    line-height: 1.6;
+}
+
+label + label:not([for]) > input[type=radio]{
+    margin-top: 0;
+    vertical-align: text-top;
+}
+
+.ui-dialog-content h3{
+    text-align: right;
+    font-size: 16px;
+    margin: 4px 0 8px 0;
+}
+
+button[disabled]{
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+img[disabled]{
+    opacity: 0.5;
+}
+
+label.checkbox{
+    margin-left: 12px;
+}
+
+label > input[type=checkbox]{
+    vertical-align: text-bottom;
+    margin: 0;
+}
+
+td.acoes, th.acoes{
+    width: 154px;
+    max-width: 154px;
+    min-width: 154px;
+}
+
+.citacao_lei{
+ width: 80%;
+ padding: 10px;
+ margin-left: 30px;
+ border: 1px solid #999;
+}
+
+table > caption{
+    line-height: 37px;
+    background-color: #C1E9D4;
+    margin: 0px 12px -4px 7px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 12px;
+    font-size: 14px;
+}
+
+table + table{
+    margin-top: 16px;
+}

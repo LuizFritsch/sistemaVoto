@@ -1,0 +1,98 @@
+
+.nav.etapas{
+    display: inline-block;
+    text-align: left;
+    margin-left: 6px;
+    margin-bottom: 8px;
+    padding: 0 6px;
+    user-select: none;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.nav.etapas > *{
+    display: inline-block;
+    line-height: 36px;
+    padding: 0 8px;
+    opacity: 0.5;
+}
+
+.nav.etapas > span.atual{
+    font-weight: bold;
+    opacity: 1;
+}
+
+.nav.etapas > a{
+    opacity: 1;
+}
+
+.nav.etapas > * + *::before{
+    content: '»';
+    margin-right: 10px;
+    margin-left: -2px;
+    font-size: 1.2em;
+}
+
+.nav.etapas ~ fieldset:only-of-type{
+    min-width: 600px;
+}
+
+hr.etapas{
+    opacity: 0.5;
+    margin: 32px 8px 8px 8px;
+}
+
+/* CORES */
+.nav.etapas{
+    background-color: #DAF3E6;
+    border-color: #ccc;
+}
+
+button.principal{
+    color: #fff;
+    background-color: #009045;
+}
+
+
+
+
+
+
+
+button.principal{
+    line-height: 32px;
+    padding: 0 12px;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 9px 8px 8px 8px;
+    text-transform: uppercase;
+}
+
+button.principal:hover{
+    opacity: 0.9;
+}
+
+button.etapas.proximo{
+    float: right;
+}
+
+button.etapas > b{
+    font-size: 1.2em;
+    line-height: 0.4;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+button.etapas.proximo > b{
+    margin: -4px 4px 0 16px;
+}
+
+button.etapas.proximo > img{
+    margin: 0 6px -3px 0;
+}
+
+button.etapas.anterior > b{
+    margin: -4px 16px 0 4px;
+}

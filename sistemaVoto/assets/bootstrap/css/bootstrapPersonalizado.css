@@ -1,0 +1,45 @@
+.btn-verde-unipampa {
+    color: #FFFFFF;
+    background-color: #009045;
+    border-color: #009045;
+}
+
+.btn-verde-unipampa:hover,
+.btn-verde-unipampa:focus,
+.btn-verde-unipampa:active,
+.btn-verde-unipampa.active,
+.open .dropdown-toggle.btn-verde-unipampa {
+    color: #FFFFFF;
+    background-color: #255625;
+    border-color: #009045;
+}
+
+.btn-verde-unipampa:active,
+.btn-verde-unipampa.active,
+.open .dropdown-toggle.btn-verde-unipampa {
+    background-image: none;
+}
+
+.btn-verde-unipampa.disabled,
+.btn-verde-unipampa[disabled],
+fieldset[disabled] .btn-verde-unipampa,
+.btn-verde-unipampa.disabled:hover,
+.btn-verde-unipampa[disabled]:hover,
+fieldset[disabled] .btn-verde-unipampa:hover,
+.btn-verde-unipampa.disabled:focus,
+.btn-verde-unipampa[disabled]:focus,
+fieldset[disabled] .btn-verde-unipampa:focus,
+.btn-verde-unipampa.disabled:active,
+.btn-verde-unipampa[disabled]:active,
+fieldset[disabled] .btn-verde-unipampa:active,
+.btn-verde-unipampa.disabled.active,
+.btn-verde-unipampa[disabled].active,
+fieldset[disabled] .btn-verde-unipampa.active {
+    background-color: #009045;
+    border-color: #009045;
+}
+
+.btn-verde-unipampa .badge {
+    color: #009045;
+    background-color: #FFFFFF;
+}
