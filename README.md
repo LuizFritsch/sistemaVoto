@@ -14,7 +14,7 @@ Ou
 
 ## Siga estes passos para executar o sistema Voto:
 
-1. Clone nosso repositório na root server directory (diretorio htdocs ou www): 
+1. Clone o repositório na root server directory (diretorio htdocs ou www): 
 ```
 WhoAmI@wHOamI:~$ git clone https://github.com/LuizFritsch/sistemaVoto.git
 ```
@@ -24,4 +24,4 @@ WhoAmI@wHOamI:~$ git clone https://github.com/LuizFritsch/sistemaVoto.git
 3. Execute o apache
 
 4. Acesse no navegador de sua preferencia: http://localhost/sistemaVoto/SistemaVoto/
-(Já tem os usuarios 'renaro' como secretário e rafael, marcus e jhonnatan cadastrados como membros)
+(Já tem os usuarios 'renaro' com privilégios de moderador e rafael, marcus e jhonnatan cadastrados com privilégios de membros)
