@@ -15,8 +15,8 @@ Ou
 ## Siga estes passos para executar o sistema Voto:
 
 1. Clone o repositório na root server directory (diretorio htdocs ou www): 
-```
-WhoAmI@wHOamI:~$ git clone https://github.com/LuizFritsch/sistemaVoto.git
+```sh
+git clone https://github.com/LuizFritsch/sistemaVoto.git
 ```
 
 2. Crie uma base de dados chamada 'vot', com codificação de caracteres em utf-8 e importe ou execute o arquivo vot.sql
