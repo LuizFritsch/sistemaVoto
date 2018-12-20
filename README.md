@@ -16,7 +16,7 @@ Ou
 
 1. Clone nosso repositório na root server directory (diretorio htdocs ou www): 
 ```
-git clone https://github.com/LuizFritsch/sistemaVoto.git
+WhoAmI@wHOamI:~$ git clone https://github.com/LuizFritsch/sistemaVoto.git
 ```
 
 2. Crie uma base de dados chamada 'vot', com codificação de caracteres em utf-8 e importe ou execute o arquivo vot.sql
