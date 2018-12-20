@@ -1,1 +1,27 @@
-# sistemaVoto
+# Módulo de votação do Sistema GURI - VOTO
+
+## Pré requisitos:
+* Última versão estável do Xampp(7.3.0 / PHP 7.3.0)
+
+Ou
+
+* Apache 2.4.37
+* PHP 7.3.0
+* MariaDB 10.1.37
+* PHP 7.3.0
+* phpMyAdmin 4.8.4
+
+
+## Siga estes passos para executar o sistema Voto:
+
+1. Clone nosso repositório na root server directory (diretorio htdocs ou www): 
+```
+git clone https://github.com/LuizFritsch/sistemaVoto.git
+```
+
+2. Crie uma base de dados chamada 'vot', com codificação de caracteres em utf-8 e importe ou execute o arquivo vot.sql
+
+3. Execute o apache
+
+4. Acesse no navegador de sua preferencia: http://localhost/sistemaVoto/SistemaVoto/
+(Já tem os usuarios 'renaro' como secretário e rafael, marcus e jhonnatan cadastrados como membros)
