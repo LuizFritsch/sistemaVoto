@@ -21,7 +21,7 @@ WhoAmI@wHOamI:~$ git clone https://github.com/LuizFritsch/sistemaVoto.git
 
 2. Crie uma base de dados chamada 'vot', com codificação de caracteres em utf-8 e importe ou execute o arquivo vot.sql
 
-2.1 Caso seu banco esteja com um usuário:senha que não sejam "root":"", crie ou altere o arquivo sistemaVoto/sistemaVoto/application/config/database.php com as informações de usuario que desejares. :)
+2.1 Caso seu banco esteja com um usuário:senha que não sejam "root":"", crie ou altere o arquivo sistemaVoto/sistemaVoto/application/config/database.php com as informações de usuario que desejares.
 
 3. Execute o apache
 
